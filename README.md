@@ -16,4 +16,4 @@ Java 17 is required to run the Gradle build.
 6. You'll see a 200 status code with response `{}`
 7. Use the Authorize button but "Logout" this time
 8. Click "Execute" again and see an "Undocumented" code with details "Failed to fetch."
-9. Expected output would be a "401" code with details "Unuauthorized"
+9. Expected output would be a "401" code with details "Unauthorized"
