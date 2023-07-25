@@ -33,7 +33,7 @@ class OpenApiConfig {
                     .`in`(SecurityScheme.In.HEADER)))
 
     @Bean
-    fun groupedOpenApi(@Value("/api") mwContextPath : String ): GroupedOpenApi =
+    fun groupedOpenApi(): GroupedOpenApi =
         GroupedOpenApi
             .builder()
             .group("demo").pathsToMatch("/api/**")
